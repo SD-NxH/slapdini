@@ -1,0 +1,169 @@
+.footer{
+background: #000;
+background-repeat: no-repeat;
+background-size: 100%;
+color: #8a8a8a;
+font-size: 14px;
+
+
+
+}
+.footer p{
+	color:#8a8a8a;
+}
+.footer h3{
+	color: #fff;
+	margin-bottom: 5px;
+}
+.footer-col-1, .footer-col-2 , .footer-col-3{
+	min-width: 250px;
+	margin-bottom: 5px;
+}
+.footer-col-1{
+	flex-basis: 30%;
+	text-align: center;
+}
+.footer-col-1 img{
+	margin: 10px;
+	width: 1500px;
+}
+.footer-col-2{
+	flex: 1;
+	text-align: center;
+}
+.footer-col-2 img{
+	width: 200px;
+}
+.footer-col-3{
+	flex-basis: 12%;
+	text-align: center;
+}
+.footer img{
+	border: none;
+	size: 20px;
+	width: 175px;
+}
+.footer hr{
+	border: none;
+	background: #b5b5b5;
+	height: 1px;
+	
+}
+.footer li{
+color: #FFF;
+}
+.footer:hover li{
+color: #F98B88;
+cursor: pointer;
+}
+.copyright{
+	text-align: center;
+}
+
+input{
+	background: #e6ffff;
+	margin-top: 10px;
+	border-radius: 10px;
+	border: groove;
+	border-color: black;
+}
+select{
+	background: #e6ffff;
+	border-radius: 10px;
+}
+label{
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: px;
+
+}
+p{
+font-style: italic;
+}
+
+.name{
+	margin-bottom: 25px;
+	width: 30%;
+	height: 30px;
+}
+
+.email{
+	margin-bottom: 25px;
+	width: 30%;
+	height: 30px;
+}
+
+.select{
+	margin-bottom: 25px;
+	width: 30%;
+	height: 30px;
+	border: groove;
+	border-color: black;
+}
+
+.quant{
+	margin-bottom: 25px;
+	width: 30px;
+	height: 24px;
+	border: groove;
+	margin-left: 5px;
+	border-color: black;
+}
+.size{
+	margin-bottom: 25px;
+	width: 35px;
+	height: 30px;
+	border: groove;
+	border-color: black;
+
+}
+.btn{
+	margin-bottom: 25px;
+	display: inline-block;
+	background: #ff523b;
+	color: #fff;
+	padding: 8px 30px;
+	margin: 5px 0;
+	margin-bottom: 30px;
+	border-radius: 30px;
+	transition: background 0.5s;
+	margin-top: 30px;
+}
+
+.btn{
+	cursor: pointer;
+}
+.btn:hover{
+	background: #563434;
+
+}
+
+a:hover{
+background: #aefcb1;
+}
+
+/*media query for less than 600 screen screen size*/
+
+@media only screen and (max-width: 600px){
+	.row{
+		text-align: center;
+	}
+	.col-2, .col-3, .col-4{
+		flex-basis: 100%;
+	}
+	.small-containerandsingle-product .row{
+		text-align: left;
+	}
+	.small-containerandsingle-product .col-2{
+		padding: 20px 0;
+	}
+	.small-containerandsingle-product h1{
+		font-size: 26px;
+		line-height: 32px;
+	}
+
+	.cart-rows p{
+		display: none;
+		
+	}
+}
