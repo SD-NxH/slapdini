@@ -116,6 +116,7 @@ font-style: italic;
 	height: 30px;
 	border: groove;
 	border-color: black;
+	padding: 5px;
 
 }
 .btn{
