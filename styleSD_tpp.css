@@ -66,6 +66,7 @@ input{
 	border-radius: 10px;
 	border: groove;
 	border-color: black;
+	width: 50%;
 }
 select{
 	background: #e6ffff;
@@ -111,7 +112,7 @@ font-style: italic;
 }
 .size{
 	margin-bottom: 25px;
-	width: 40px;
+	width: 55px;
 	height: 30px;
 	border: groove;
 	border-color: black;
