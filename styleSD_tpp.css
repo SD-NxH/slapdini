@@ -325,5 +325,26 @@ background: none;
 	.address{
 		width: 85%;
 	}
+
+
+.select{
+	margin-bottom: 25px;
+	width: 60%;
+	height: 30px;
+	border: groove;
+	border-color: black;
+	align-content: center;
+}
+
+.size{
+	margin-bottom: 25px;
+	width: 63%;
+	height: 30px;
+	border: groove;
+	border-color: black;
+	padding: 5px;
+	align-content: center;
+
+}
 }
 
