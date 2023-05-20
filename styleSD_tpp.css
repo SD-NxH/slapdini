@@ -140,8 +140,18 @@ font-style: italic;
 
 }
 
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
 a:hover{
 background: #aefcb1;
+}
+
+.sitelogo:hover{
+background: none;
 }
 .slider-img-container {
   position: relative;
@@ -166,6 +176,10 @@ background: #aefcb1;
   max-width: 800px;
   position: relative;
   margin: auto;
+}
+
+.slideshow-container img{
+	border-radius: 10px;
 }
 
 .mySlides {
@@ -299,4 +313,17 @@ background: #aefcb1;
 		display: none;
 		
 	}
+
+	.name{
+		width: 65%;
+	}
+
+	.email{
+		width: 65%;
+	}
+
+	.address{
+		width: 85%;
+	}
 }
+
