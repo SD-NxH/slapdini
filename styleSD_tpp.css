@@ -88,6 +88,12 @@ font-style: italic;
 	height: 30px;
 }
 
+.IG{
+	margin-bottom: 25px;
+	width: 30%;
+	height: 30px;
+}
+
 .email{
 	margin-bottom: 25px;
 	width: 30%;
@@ -315,6 +321,10 @@ background: none;
 	}
 
 	.name{
+		width: 65%;
+	}
+
+	.IG{
 		width: 65%;
 	}
 
