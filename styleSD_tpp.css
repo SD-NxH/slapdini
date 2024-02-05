@@ -1,3 +1,50 @@
+article {
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   margin: 20px auto; /* Center horizontally by setting left and right margins to auto */
+}
+
+@media (min-width: 769px) {
+  article {
+    width: 60%; /* Set a specific width for the website view */
+    height: 35%; /* Set a specific height for the website view */
+  }
+}
+
+article h2 {
+  color: #black; /* Pink */
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+article p {
+  color: #333; /* Regular text color */
+  line-height: 1.5;
+}
+
+.prod1{
+    width: 100%; /* Make the image width occupy the full container width */
+  height: 0; /* Set the initial height to 0 */
+  padding-bottom: 100%; /* Set the padding-bottom to create a square aspect ratio */
+  background-position: center center; /* Center the image within the container */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-size: cover; /* Crop and scale the image to cover the container */
+  background-image: url("images_/nikeblazer77.PNG"); /* Replace the URL with the correct image path */
+}
+
+
+.prod2{
+    width: 100%; /* Make the image width occupy the full container width */
+  height: 0; /* Set the initial height to 0 */
+  padding-bottom: 100%; /* Set the padding-bottom to create a square aspect ratio */
+  background-position: center center; /* Center the image within the container */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-size: cover; /* Crop and scale the image to cover the container */
+  background-image: url("images_/nikezoomfreakw.PNG"); /* Replace the URL with the correct image path */
+}
 .footer{
 background: #000;
 background-repeat: no-repeat;
@@ -146,6 +193,13 @@ font-style: italic;
 
 }
 
+ .nbtn{
+      position: fixed;
+      bottom: 450px; /* Adjust the distance from the bottom as needed */
+      right: 20px; /* Adjust the distance from the right as needed */
+     z-index: 999;
+    }
+
 .dot-container {
   text-align: center;
   padding: 20px;
@@ -167,6 +221,18 @@ background: none;
 }
 
 .slider-text {
+ position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.itext {
  position: absolute;
   bottom: 0;
   left: 0;
