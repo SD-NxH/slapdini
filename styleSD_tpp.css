@@ -25,6 +25,13 @@ article p {
   line-height: 1.5;
 }
 
+.article1 {
+   background-color: rgba(255, 255, 255, 0.5); /* Set the background color with opacity */
+  border: 2px solid rgba(0, 0, 0, 0.5); /* Set the border with opacity */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a shadow with opacity */
+  padding: 20px; /* Add padding to separate content from border */
+}
+
 .prod1{
     width: 100%; /* Make the image width occupy the full container width */
   height: 0; /* Set the initial height to 0 */
@@ -43,7 +50,7 @@ article p {
   background-position: center center; /* Center the image within the container */
   background-repeat: no-repeat; /* Prevent the image from repeating */
   background-size: cover; /* Crop and scale the image to cover the container */
-  background-image: url("images_/nikezoomfreakw.PNG"); /* Replace the URL with the correct image path */
+  background-image: url("images_/availsoon.png"); /* Replace the URL with the correct image path */
 }
 .footer{
 background: #000;
